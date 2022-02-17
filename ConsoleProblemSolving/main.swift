@@ -207,4 +207,4 @@ func twoStrings(s1: String, s2: String) -> String {
 //Tree().addNode(values: [1,2,13,14,15,16,17,8,9,11,12,3,4,5,6,7,18,19]).printPreOrder()
 //Tree().addNode(values: [1,2,13,14,15,16,17,8,9,11,12,3,4,5,6,7,18,19]).printPostOrder()
 
-Tree().addNode(values: [1,2,5,3,4,6]).printPostOrder()
+//Tree().addNode(values: [1,2,5,3,4,6]).printPostOrder()
