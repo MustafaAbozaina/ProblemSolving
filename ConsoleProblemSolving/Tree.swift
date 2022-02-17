@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
+var nodesPath = ""
 class Node {
     var left: Node?
     var right: Node?
@@ -35,14 +35,29 @@ class Node {
         }
     }
     
+    func contains(value: Int) -> Bool {
+        if data == value {
+            return true
+        }
+        if  let _ = left, data > value  {
+            return left?.contains(value: value) ?? false
+        }else
+        if let _ = right, data < value {
+            return right?.contains(value: value) ?? false
+        }
+        return false
+    }
+    
     func printInOrder() {
         left?.printInOrder()
+        nodesPath += "\(data)"
         print(data,terminator: " ")
         right?.printInOrder()
 
     }
     
     func printPreOrder() {
+        nodesPath += "\(data)"
         print(data,terminator: " ")
         left?.printPreOrder()
         right?.printPreOrder()
@@ -51,6 +66,7 @@ class Node {
     func printPostOrder() {
         left?.printPostOrder()
         right?.printPostOrder()
+        nodesPath += "\(data)"
         print(data,terminator: " ")
         
     }
@@ -70,3 +86,4 @@ class Tree {
         return rootNode ?? Node(data: 0)
     }
 }
+

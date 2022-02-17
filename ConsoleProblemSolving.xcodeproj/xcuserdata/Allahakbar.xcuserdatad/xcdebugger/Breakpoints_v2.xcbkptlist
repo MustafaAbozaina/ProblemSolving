@@ -7,146 +7,332 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "1B5C3868-6704-4054-ADBF-D826BD4883F5"
-            shouldBeEnabled = "Yes"
-            condition = "value == 6"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ConsoleProblemSolving/Tree.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "65"
-            endingLineNumber = "65"
-            landmarkName = "addNode(values:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "1A193364-1866-4E33-BEAE-15FB294BDA9C"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ConsoleProblemSolving/Tree.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
-            landmarkName = "insert(value:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "4A3ACE5A-D28F-4A38-A69F-31470F9BB5E0"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ConsoleProblemSolving/Tree.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
-            landmarkName = "insert(value:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "08E1392A-2CFA-4E86-8434-CF27E7E6E66A"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ConsoleProblemSolving/Tree.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
-            landmarkName = "insert(value:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "2A48616B-18DC-4895-94D6-AC50F78D9E6A"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ConsoleProblemSolving/Tree.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
-            landmarkName = "insert(value:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "1ADF2BA2-106C-4175-A163-14D73BD2A072"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ConsoleProblemSolving/Tree.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
-            landmarkName = "insert(value:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "4C85298E-A1A8-4F4A-A52F-7AC616244981"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "ConsoleProblemSolving/Tree.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
-            landmarkName = "insert(value:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "F91E9DD7-3E9B-4C0A-B68E-2DB1361558E8"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ConsoleProblemSolving/Tree.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "53"
-            endingLineNumber = "53"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
             landmarkName = "printPostOrder()"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F91E9DD7-3E9B-4C0A-B68E-2DB1361558E8 - 55a6ae04c4b4dbe2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ProblemSolvingTests.Node.printPostOrder() -&gt; ()"
+                  moduleName = "ProblemSolvingTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Mine/MyWork/Developer/iOS/Demos/ConsoleProblemSolving/ConsoleProblemSolving/Tree.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "F91E9DD7-3E9B-4C0A-B68E-2DB1361558E8 - 55a6ae04c4b4dbc3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ProblemSolvingTests.Node.printPostOrder() -&gt; ()"
+                  moduleName = "ProblemSolvingTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Mine/MyWork/Developer/iOS/Demos/ConsoleProblemSolving/ConsoleProblemSolving/Tree.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "112">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "E71937E6-8617-4E4A-B2D8-54C6A7EC2105"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ConsoleProblemSolving/Tree.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "printPostOrder()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "08AF63F1-A9CB-4810-A351-0F7D9CC2FFD6"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ConsoleProblemSolving/Tree.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "54"
-            endingLineNumber = "54"
-            landmarkName = "printPostOrder()"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "contains(value:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "08AF63F1-A9CB-4810-A351-0F7D9CC2FFD6 - f42eed1d28f0fe1f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ProblemSolvingTests.Node.contains(value: Swift.Int) -&gt; Swift.Bool"
+                  moduleName = "ProblemSolvingTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Mine/MyWork/Developer/iOS/Demos/ConsoleProblemSolving/ConsoleProblemSolving/Tree.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "173">
+               </Location>
+               <Location
+                  uuid = "08AF63F1-A9CB-4810-A351-0F7D9CC2FFD6 - f42eed1d28f0fe1f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ProblemSolvingTests.Node.contains(value: Swift.Int) -&gt; Swift.Bool"
+                  moduleName = "ProblemSolvingTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Mine/MyWork/Developer/iOS/Demos/ConsoleProblemSolving/ConsoleProblemSolving/Tree.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "125">
+               </Location>
+               <Location
+                  uuid = "08AF63F1-A9CB-4810-A351-0F7D9CC2FFD6 - f42eed1d28f0fefe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ProblemSolvingTests.Node.contains(value: Swift.Int) -&gt; Swift.Bool"
+                  moduleName = "ProblemSolvingTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Mine/MyWork/Developer/iOS/Demos/ConsoleProblemSolving/ConsoleProblemSolving/Tree.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "167">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9E206606-A473-4B2A-A1A1-5685D43EF143"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ConsoleProblemSolving/Tree.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "contains(value:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9E206606-A473-4B2A-A1A1-5685D43EF143 - f42eed1d28f0fea1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ProblemSolvingTests.Node.contains(value: Swift.Int) -&gt; Swift.Bool"
+                  moduleName = "ProblemSolvingTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Mine/MyWork/Developer/iOS/Demos/ConsoleProblemSolving/ConsoleProblemSolving/Tree.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "422">
+               </Location>
+               <Location
+                  uuid = "9E206606-A473-4B2A-A1A1-5685D43EF143 - f42eed1d28f0fea1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ProblemSolvingTests.Node.contains(value: Swift.Int) -&gt; Swift.Bool"
+                  moduleName = "ProblemSolvingTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Mine/MyWork/Developer/iOS/Demos/ConsoleProblemSolving/ConsoleProblemSolving/Tree.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "295">
+               </Location>
+               <Location
+                  uuid = "9E206606-A473-4B2A-A1A1-5685D43EF143 - f42eed1d28f0ff63"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ProblemSolvingTests.Node.contains(value: Swift.Int) -&gt; Swift.Bool"
+                  moduleName = "ProblemSolvingTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Mine/MyWork/Developer/iOS/Demos/ConsoleProblemSolving/ConsoleProblemSolving/Tree.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "363">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CEA45955-B16E-4F37-8F73-3AF3C4198099"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ConsoleProblemSolving/Tree.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "contains(value:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CEA45955-B16E-4F37-8F73-3AF3C4198099 - f42eed1d28f0fe3c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ProblemSolvingTests.Node.contains(value: Swift.Int) -&gt; Swift.Bool"
+                  moduleName = "ProblemSolvingTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Mine/MyWork/Developer/iOS/Demos/ConsoleProblemSolving/ConsoleProblemSolving/Tree.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "98">
+               </Location>
+               <Location
+                  uuid = "CEA45955-B16E-4F37-8F73-3AF3C4198099 - f42eed1d28f0fe3c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ProblemSolvingTests.Node.contains(value: Swift.Int) -&gt; Swift.Bool"
+                  moduleName = "ProblemSolvingTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Mine/MyWork/Developer/iOS/Demos/ConsoleProblemSolving/ConsoleProblemSolving/Tree.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "95">
+               </Location>
+               <Location
+                  uuid = "CEA45955-B16E-4F37-8F73-3AF3C4198099 - f42eed1d28f0fe1f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ProblemSolvingTests.Node.contains(value: Swift.Int) -&gt; Swift.Bool"
+                  moduleName = "ProblemSolvingTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Mine/MyWork/Developer/iOS/Demos/ConsoleProblemSolving/ConsoleProblemSolving/Tree.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "115">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AC639D5B-CBD5-40BF-AF4D-D2E7DB5CA8BF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ConsoleProblemSolving/Tree.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "contains(value:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AC639D5B-CBD5-40BF-AF4D-D2E7DB5CA8BF - f42eed1d28f0ff63"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ProblemSolvingTests.Node.contains(value: Swift.Int) -&gt; Swift.Bool"
+                  moduleName = "ProblemSolvingTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Mine/MyWork/Developer/iOS/Demos/ConsoleProblemSolving/ConsoleProblemSolving/Tree.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "629">
+               </Location>
+               <Location
+                  uuid = "AC639D5B-CBD5-40BF-AF4D-D2E7DB5CA8BF - f42eed1d28f0ff63"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ProblemSolvingTests.Node.contains(value: Swift.Int) -&gt; Swift.Bool"
+                  moduleName = "ProblemSolvingTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Mine/MyWork/Developer/iOS/Demos/ConsoleProblemSolving/ConsoleProblemSolving/Tree.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "453">
+               </Location>
+               <Location
+                  uuid = "AC639D5B-CBD5-40BF-AF4D-D2E7DB5CA8BF - f42eed1d28f0ff42"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ProblemSolvingTests.Node.contains(value: Swift.Int) -&gt; Swift.Bool"
+                  moduleName = "ProblemSolvingTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Mine/MyWork/Developer/iOS/Demos/ConsoleProblemSolving/ConsoleProblemSolving/Tree.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "500">
+               </Location>
+               <Location
+                  uuid = "AC639D5B-CBD5-40BF-AF4D-D2E7DB5CA8BF - f42eed1d28f0ff42"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ProblemSolvingTests.Node.contains(value: Swift.Int) -&gt; Swift.Bool"
+                  moduleName = "ProblemSolvingTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Mine/MyWork/Developer/iOS/Demos/ConsoleProblemSolving/ConsoleProblemSolving/Tree.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "486">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
