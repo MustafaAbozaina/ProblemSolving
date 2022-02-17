@@ -186,7 +186,7 @@ func twoStrings(s1: String, s2: String) -> String {
 //let list2 = [5,8,1,3,7,9,2]
 //print(quickSort(array: list2))
 //print(insertionSort())
-print(caeserCipher(word: "!m-rB`-oN!.W`cLAcVbN/CqSoolII!SImji.!w/`Xu`uZa1TWPRq`uRBtok`xPT`lL-zPTc.BSRIhu..-!.!tcl!-U", encyptionKey: 62))
+//print(caeserCipher(word: "!m-rB`-oN!.W`cLAcVbN/CqSoolII!SImji.!w/`Xu`uZa1TWPRq`uRBtok`xPT`lL-zPTc.BSRIhu..-!.!tcl!-U", encyptionKey: 62))
 
 //print(flippingMatrix())
 
@@ -201,4 +201,10 @@ print(caeserCipher(word: "!m-rB`-oN!.W`cLAcVbN/CqSoolII!SImji.!w/`Xu`uZa1TWPRq`u
 //
 //print(summition(n: 5))
 
-print(quickSort(array: [1,2,7,8,5,4,6]))
+//print(quickSort(array: [1,2,7,8,5,4,6]))
+
+//Tree().addNode(values: [1,2,13,14,15,16,17,8,9,11,12,3,4,5,6,7,18,19]).printInOrder()
+//Tree().addNode(values: [1,2,13,14,15,16,17,8,9,11,12,3,4,5,6,7,18,19]).printPreOrder()
+//Tree().addNode(values: [1,2,13,14,15,16,17,8,9,11,12,3,4,5,6,7,18,19]).printPostOrder()
+
+Tree().addNode(values: [1,2,5,3,4,6]).printPostOrder()
