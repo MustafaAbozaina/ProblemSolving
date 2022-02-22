@@ -79,12 +79,12 @@ class LinkedListTests: XCTestCase {
         elements.forEach { e  in
             linkedList.append(value: e)
         }
-        
         // using this as a function to make sure when i call it, it will run node(AtIndex each time - but if i created as variable it will make it once at the beginning
         let theOld6ThNode = {
             
          return linkedList.node(atIndex: 6)
         }
+        
         
         XCTAssertEqual(theOld6ThNode().value, elements[6])
         
@@ -112,29 +112,36 @@ class LinkedListTests: XCTestCase {
     }
 }
 
-fileprivate class Node<T> {
+ class LinkedNode<T> {
     var value: T
-    var next: Node?
-    weak var previous: Node?
+    var next: LinkedNode?
+    weak var previous: LinkedNode?
     
     public init(value: T) {
         self.value = value
     }
+    
+    
+    
 }
 
 public class LinkedList<T> {
     
-    private var head: Node<T>?
+    private var head: LinkedNode<T>?
     
     public var isEmpty: Bool {
         return head == nil
     }
     
-    fileprivate var first: Node<T>? {
+    fileprivate var first: LinkedNode<T>? {
         return head
     }
     
-    fileprivate var last: Node<T>? {
+    func isNotEmpty() -> Bool {
+        return head != nil
+    }
+    
+    fileprivate var last: LinkedNode<T>? {
         guard var node = head else {
             return nil
         }
@@ -146,7 +153,7 @@ public class LinkedList<T> {
     }
     
     public func append(value: T) {
-        let newNode = Node(value: value)
+        let newNode = LinkedNode(value: value)
         if let lastNode = last {
             newNode.previous = lastNode
             lastNode.next = newNode
@@ -182,7 +189,7 @@ public class LinkedList<T> {
     }
     
     // Get Node at index -> O(n) // because it's loop through elements
-    fileprivate func node(atIndex index: Int) -> Node<T> {
+    func node(atIndex index: Int) -> LinkedNode<T> {
         if index == 0 {
             return head!
         } else {
@@ -197,8 +204,8 @@ public class LinkedList<T> {
         }
     }
     
-    fileprivate func insert(value: T, atIndex index: Int) {
-       let newNode = Node(value: value)
+    func insert(value: T, atIndex index: Int) {
+       let newNode = LinkedNode(value: value)
        if index == 0 {
            newNode.next = head
            head?.previous = newNode
@@ -213,7 +220,7 @@ public class LinkedList<T> {
            nextNode?.previous = newNode
        }
     }
-    fileprivate func remove(node: Node<T>) -> T {
+    func remove(node: LinkedNode<T>) -> T {
         let previousNode = node.previous
         let nextNode = node.next
 
@@ -228,6 +235,11 @@ public class LinkedList<T> {
         node.next = nil
         return node.value
     }
+    
+    func removeFirst() -> T {
+        return removeAt(0)
+    }
+    
     @discardableResult
     fileprivate func removeAt(_ index: Int) -> T {
         let nodeToRemove = node(atIndex: index)
@@ -235,3 +247,77 @@ public class LinkedList<T> {
     }
     
 }
+
+
+fileprivate class GraphTests: XCTestCase {
+    func test_graph() {
+        let exchangeArr = ["EURUSD", "USDGBP", "USDEGP", "EGPEUR", "GBPEGP", "USDAED", "GBPAED", "AEDEGP"]
+        // get unique dic of currencies
+        var set = Set<String>()
+        
+        for item in exchangeArr {
+            let firstCurrency = item.getSubString(fromIndex: 0, toIncludedIndex: 2)
+            let secondCurrency = item.getSubString(fromIndex: 3, toIncludedIndex: 5)
+            set.insert(String(firstCurrency))
+            set.insert(String(secondCurrency))
+        }
+        
+        
+        print("set contains \(set)")
+        
+    }
+}
+
+fileprivate class Graph {
+    private var nodeLookup: Dictionary<Int, Node>?
+    
+    // what is the use of class inside class, it's useful?
+    // why the class not outside
+    class Node {
+        var adjecent = LinkedList<Int>()
+        var data: Int
+        var id: Int
+        init(id: Int, data: Int) {
+            self.id = id
+            self.data = data
+        }
+    }
+    
+    func addEdge(source: Int, destination: Int) {
+        let s = getNode(source)
+
+        s?.adjecent.append(value: destination)
+    }
+    
+    func getNode(_ value: Int) -> Node? {
+        return nodeLookup?[value]
+    }
+    
+    func hasPathDFS(source: Int, destination: Int) -> Bool {
+        guard let sourceNode = getNode(source) else { return false}
+        guard let destinationNode = getNode(destination) else { return false}
+        
+        var visited: Set<Int> = Set()
+        return hasPathDFS(source: sourceNode.data, destination: destinationNode.data, visited: &visited)
+    }
+    
+    func hasPathDFS(source: Int, destination: Int, visited:inout Set<Int>) -> Bool {
+        if (visited.contains(source)){
+            return false
+        }
+        visited.insert(source)
+        
+        if source == destination {
+            return true
+        }
+        let sourceNode = getNode(source)
+        for i in  0..<(sourceNode?.adjecent.count ?? 0)  {
+            if let sourceValue = sourceNode?.adjecent.node(atIndex: i).value {
+                return hasPathDFS(source:  sourceValue, destination: destination, visited: &visited)
+            }
+        }
+        
+        return false
+    }
+}
+

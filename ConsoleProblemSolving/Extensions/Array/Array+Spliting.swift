@@ -17,3 +17,13 @@ extension Array {
         return (left: Array(leftSplit), right: Array(rightSplit))
     }
 }
+
+
+
+extension Array {
+    func split(leftLastIndex: Int) -> (left: [Element], right: [Element]) {
+        let leftArr = self[0 ..< leftLastIndex]
+        let rightArr = self[leftLastIndex ..< self.count]
+        return (left: Array(leftArr), right: Array(rightArr))
+    }
+}

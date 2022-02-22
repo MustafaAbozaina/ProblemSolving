@@ -67,11 +67,3 @@ let end = DispatchTime.now()
 let nanoTime = end.uptimeNanoseconds - start.uptimeNanoseconds
 //print("Nano \(nanoTime)")
 
-
-extension Array {
-    func split(leftLastIndex: Int) -> (left: [Element], right: [Element]) {
-        let leftArr = self[0 ..< leftLastIndex]
-        let rightArr = self[leftLastIndex ..< self.count]
-        return (left: Array(leftArr), right: Array(rightArr))
-    }
-}
