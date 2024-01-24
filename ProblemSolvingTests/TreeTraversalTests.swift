@@ -173,7 +173,20 @@ class TreeTraversalTests: XCTestCase {
     }
     
     func test_makingATreeBalanced_shouldIsBalancedReturnFalseFirstAndAfterProcessingTreeShouldReturnTrue() {
-        
+        let tree = Tree()
+        var root: Node? = tree.addNodes(values: [3,1,2,10,4,5,6,9,8,7])
+        root?.printPreOrder()
+        let elements = root?.getData() ?? []
+        XCTAssertFalse( tree.isBalanced(node: root))
+        root = root?.balancingATree(elements: elements)
+        XCTAssertTrue(tree.isBalanced(node: root))
+        root?.printPreOrder()
+        print("")
+        root?.printInOrder()
+        print("")
+        root?.right?.printInOrder()
+        print("")
+        root?.left?.printInOrder()
     }
 
 }
@@ -189,13 +202,36 @@ fileprivate class Node {
         self.data = data
     }
     
-    func balancingATree() {
-        //1- get all elements of this tree
+    func balancingATree(elements: [Int]) -> Node? {
+        //1- get all elements of this tree  -> done
         //2- take the array[mid] as the root
         //3- make recursive for any reset sub arrays till find no more than 1
+//        var treeElements = elements
+        let tree = Tree()
+        var root: Node?
+        if elements.isEmpty {
+            return nil
+        }
+        if elements.count <= 2 {
+             root = tree.addNodes(values: elements)
+            return root
+        }
+        
+        let parentIndex = elements.count / 2
+        root = Node(data: elements[parentIndex])
+        let leftNodes = balancingATree(elements: Array(elements[0..<parentIndex]))
+        let rightNodes = balancingATree(elements: Array(elements[(parentIndex + 1)..<elements.count]))
         
         
+        tree.rootNode = root
+        tree.rootNode?.left = leftNodes
+        tree.rootNode?.right = rightNodes
+        
+        
+        return root
     }
+    
+    
     
     func isAVLTree(values: [Int]) -> Bool {
         let tree = Tree()
@@ -297,7 +333,6 @@ fileprivate class Node {
         nodesPath += "\(data)"
         print(data,terminator: " ")
         right?.printInOrder()
-
     }
     
     func printPreOrder() {
@@ -314,6 +349,14 @@ fileprivate class Node {
         print(data,terminator: " ")
     }
     
+    func getData() -> [Int]  {
+        var arr = [Int]()
+        arr.append(contentsOf: left?.getData() ?? [])
+        arr.append(contentsOf: [data])
+        arr.append(contentsOf: right?.getData() ?? [])
+        
+        return arr
+    }
     
     
     func treeHeight() {
@@ -371,6 +414,7 @@ class Tree {
         let righth = findHeight(node: node?.right)
         let lefth = findHeight(node: node?.left)
         
+        // if the difference between 2 branches more than 1
         if abs(righth) - abs(lefth) > 1 {
             return -100
         }

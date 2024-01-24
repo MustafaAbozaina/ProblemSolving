@@ -9,89 +9,9 @@
 import Foundation
 
 
-func findBirbesfrom(q:[Int]) -> Void{
-        var array = q
-        var numberOfBribes = 0
 
-        for i in 0..<q.count - 1 {
-            if q[i] - (i+1) > 2 {
-                print("Too chaotic")
-                return
-            }
-        }
-        
-        for i in 0..<array.count {
-            
-            if array[i] > (i + 1) {
-                let shouldBeCurrentElement = i + 1
-                for j in i..<array.count {
-                    if shouldBeCurrentElement == array[j]{
-                        array.insert(i + 1, at: i)
-                        array.remove(at: j + 1 )
-                        break
-                    }
-                    numberOfBribes += 1
-                }
-            }
-        }
-        print(numberOfBribes)
-    }
 
-func bribes(q:[Int]){
-    var array = q
-    var numberOfBribes = 0
 
-    for i in (0..<q.count).reversed() {
-        if array[i] - (i + 1) > 2 {
-            print("Too chaotic")
-            return
-        }
-        
-        if array[i] != i + 1 {
-            if (i - 1 >= 0) && (i + 1 == array[i - 1]) {
-                numberOfBribes += 1
-                array.swapAt(i, i - 1)
-            }else if (i - 2 >= 0) && i + 1 == array[i - 2] {
-                numberOfBribes += 2
-                array[i - 2] = array[i - 1];
-                array[i - 1] = array[i];
-                array[i] = i + 1;
-            }
-            
-        }
-
-    }
-    print(numberOfBribes)
-}
-
-func minimumSwap(arr1: [Int]) -> Int {
-    var arr = arr1
-    var numberOfSwaps = 0
-    var isOrdered = false
-    while !isOrdered {
-    for i in 0..<arr.count {
-        if i + 1 != arr[i] {
-            arr.swapAt(i, arr[i] - 1)
-            numberOfSwaps += 1
-        }
-//            for j in i+1..<arr.count { // optimized
-//                if arr[j] == i+1 {
-//                    arr.swapAt(i, j)
-//                    numberOfSwaps += 1
-//                }
-//            }
-//        }
-    }
-        for i in 0..<arr.count - 1 {
-            isOrdered = true
-            if arr[i] > arr[i+1]{
-                isOrdered = false
-                break
-            }
-        }
-    }
-    return numberOfSwaps
-}
 
 func checkMagazine(magazine: Array<Substring>, note: Array<Substring>) -> Void {
     var magazineDic = Dictionary<Substring,Int>()

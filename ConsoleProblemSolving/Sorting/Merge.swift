@@ -8,6 +8,11 @@
 
 import Foundation
 
+// Complexities:-
+// Time: O(N LogN) in 3 cases, Space: O(N)
+// Merge Sort is recursive Algorithm
+//=> Its Idea depending on [Mergeing] two divided array from the original array
+// desc: divide each single array till reach 2 elements and then retrieve them sorted
 
 func merge(leftPile: [Int], rightPile: [Int]) -> [Int] {
   // 1

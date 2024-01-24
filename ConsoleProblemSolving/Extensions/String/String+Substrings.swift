@@ -15,9 +15,7 @@ extension String {
         }
         let start = self.index(self.startIndex, offsetBy: fromIndex)
         let end = self.index(self.startIndex, offsetBy: toIncludedIndex)
-        
         let range = start...end
-        
         return self[range]
     }
 }
@@ -37,3 +35,22 @@ extension String {
         self.removeSubrange(range)
     }
 }
+
+extension String {
+    mutating func removeAt(index: Int) {
+        self.remove(at: self.index(startIndex, offsetBy: index) )
+    }
+}
+
+extension String {
+    mutating func getStringElementAt(index: Int) -> String.Element {
+        let index = self.index(self.startIndex, offsetBy: index) // get the index of the 4th character
+        return self[index]
+    }
+}
+// O(N) <- so I deleted It
+ extension String {
+      func getElementAt(_ index: Int) -> String.Element {
+         let index = self.index(self.startIndex, offsetBy: index) // get the index of the 4th character
+         return self[index]
+     }

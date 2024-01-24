@@ -7,49 +7,1632 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "27192874-2178-417D-997F-FA4679F05411"
+            uuid = "70418A0E-95C6-4436-ABF3-1DA4842BBC86"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ConsoleProblemSolving/main.swift"
+            filePath = "AlgoLab150Problems/WarmUp/MergeTwoSortedLists.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "115"
+            endingLineNumber = "115"
+            landmarkName = "add(node:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "494CF656-A9F1-43D4-ACE3-5478325BCC08"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlgoLab150Problems/WarmUp/Fibonaci.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "fib(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0D898E6D-1A69-43AC-B26A-8A1792EA8CC0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftProblemsTests/MemoryLeaksTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "test_leakBetweenTwoObjects()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0D898E6D-1A69-43AC-B26A-8A1792EA8CC0 - aac7173f498f5b05"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftProblemsTests.MemoryLeaksTests.test_leakBetweenTwoObjects() -&gt; ()"
+                  moduleName = "SwiftProblemsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/Practice/ConsoleProblemSolving/SwiftProblemsTests/MemoryLeaksTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "119">
+               </Location>
+               <Location
+                  uuid = "0D898E6D-1A69-43AC-B26A-8A1792EA8CC0 - aac7173f498f5ae4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftProblemsTests.MemoryLeaksTests.test_leakBetweenTwoObjects() -&gt; ()"
+                  moduleName = "SwiftProblemsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/Practice/ConsoleProblemSolving/SwiftProblemsTests/MemoryLeaksTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "119">
+               </Location>
+               <Location
+                  uuid = "0D898E6D-1A69-43AC-B26A-8A1792EA8CC0 - aac7173f498f5ac3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftProblemsTests.MemoryLeaksTests.test_leakBetweenTwoObjects() -&gt; ()"
+                  moduleName = "SwiftProblemsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/Practice/ConsoleProblemSolving/SwiftProblemsTests/MemoryLeaksTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  uuid = "0D898E6D-1A69-43AC-B26A-8A1792EA8CC0 - aac7173f498f5ac3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftProblemsTests.MemoryLeaksTests.test_leakBetweenTwoObjects() -&gt; ()"
+                  moduleName = "SwiftProblemsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/Practice/ConsoleProblemSolving/SwiftProblemsTests/MemoryLeaksTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "100">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CCDD97A3-4155-443D-BE8A-6366BD7E83FF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftProblemsTests/MemoryLeaksTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "test_leakBetweenTwoObjects()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CCDD97A3-4155-443D-BE8A-6366BD7E83FF - aac7173f498f5ac3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftProblemsTests.MemoryLeaksTests.test_leakBetweenTwoObjects() -&gt; ()"
+                  moduleName = "SwiftProblemsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/Practice/ConsoleProblemSolving/SwiftProblemsTests/MemoryLeaksTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "147">
+               </Location>
+               <Location
+                  uuid = "CCDD97A3-4155-443D-BE8A-6366BD7E83FF - aac7173f498f5aa2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftProblemsTests.MemoryLeaksTests.test_leakBetweenTwoObjects() -&gt; ()"
+                  moduleName = "SwiftProblemsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/Practice/ConsoleProblemSolving/SwiftProblemsTests/MemoryLeaksTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "147">
+               </Location>
+               <Location
+                  uuid = "CCDD97A3-4155-443D-BE8A-6366BD7E83FF - aac7173f498f5ac3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftProblemsTests.MemoryLeaksTests.test_leakBetweenTwoObjects() -&gt; ()"
+                  moduleName = "SwiftProblemsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/Practice/ConsoleProblemSolving/SwiftProblemsTests/MemoryLeaksTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  uuid = "CCDD97A3-4155-443D-BE8A-6366BD7E83FF - aac7173f498f5ac3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftProblemsTests.MemoryLeaksTests.test_leakBetweenTwoObjects() -&gt; ()"
+                  moduleName = "SwiftProblemsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/Practice/ConsoleProblemSolving/SwiftProblemsTests/MemoryLeaksTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "100">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2D78D7A1-03D5-47F9-AE41-2AD0886653E6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftProblemsTests/MemoryLeaksTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "PersonValue"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "39B900DD-29D3-46BA-840E-C34E2CD5C9E2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftProblemsTests/ClosuresTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "test_singleExpressionClosure()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8256EEE6-6EA3-42D1-A6EC-D275046E2949"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlgoLab150Problems/FixedSizeSliding/UBSTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "getAuthorHistory(author:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "8256EEE6-6EA3-42D1-A6EC-D275046E2949 - a3a77c6b2993f7f0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;AlgoLab150Problems.RootModel&lt;AlgoLab150Problems.User&gt;&gt;) -&gt; () in AlgoLab150Problems.getAuthorHistory(author: Swift.String) -&gt; Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "AlgoLab150Problems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/Practice/ConsoleProblemSolving/AlgoLab150Problems/FixedSizeSliding/UBSTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "396">
+               </Location>
+               <Location
+                  uuid = "8256EEE6-6EA3-42D1-A6EC-D275046E2949 - 59239d73cc26d15d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;AlgoLab150Problems.RootModel&lt;Swift.Array&lt;AlgoLab150Problems.User&gt;&gt;&gt;) -&gt; () in AlgoLab150Problems.getAuthorHistory(author: Swift.String) -&gt; Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "AlgoLab150Problems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/Practice/ConsoleProblemSolving/AlgoLab150Problems/FixedSizeSliding/UBSTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "102">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2E319713-8495-49D4-90FD-E5C41C4B0586"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlgoLab150Problems/FixedSizeSliding/UBSTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "getAuthorHistory(author:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "2E319713-8495-49D4-90FD-E5C41C4B0586 - 52f353defe837871"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (AlgoLab150Problems.NetworkFailure&lt;AlgoLab150Problems.FailureResponse&gt;) -&gt; () in AlgoLab150Problems.getAuthorHistory(author: Swift.String) -&gt; Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "AlgoLab150Problems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/Practice/ConsoleProblemSolving/AlgoLab150Problems/FixedSizeSliding/UBSTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "42">
+               </Location>
+               <Location
+                  uuid = "2E319713-8495-49D4-90FD-E5C41C4B0586 - 59239d73cc26d09f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;AlgoLab150Problems.RootModel&lt;Swift.Array&lt;AlgoLab150Problems.User&gt;&gt;&gt;) -&gt; () in AlgoLab150Problems.getAuthorHistory(author: Swift.String) -&gt; Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "AlgoLab150Problems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/Practice/ConsoleProblemSolving/AlgoLab150Problems/FixedSizeSliding/UBSTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "952">
+               </Location>
+               <Location
+                  uuid = "2E319713-8495-49D4-90FD-E5C41C4B0586 - 52f353defe837810"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (AlgoLab150Problems.NetworkFailure&lt;AlgoLab150Problems.FailureResponse&gt;) -&gt; () in AlgoLab150Problems.getAuthorHistory(author: Swift.String) -&gt; Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "AlgoLab150Problems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/Practice/ConsoleProblemSolving/AlgoLab150Problems/FixedSizeSliding/UBSTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "42">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7878A691-3FB1-475D-9045-3D0EF27284CC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlgoLab150Problems/FixedSizeSliding/UBSTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "getAuthorHistory(author:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "7878A691-3FB1-475D-9045-3D0EF27284CC - cdf7b7e4c1f3d150"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgoLab150Problems.getAuthorHistory(author: Swift.String) -&gt; Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "AlgoLab150Problems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/Practice/ConsoleProblemSolving/AlgoLab150Problems/FixedSizeSliding/UBSTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "666">
+               </Location>
+               <Location
+                  uuid = "7878A691-3FB1-475D-9045-3D0EF27284CC - a3a77c6b2993f4a6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;AlgoLab150Problems.RootModel&lt;AlgoLab150Problems.User&gt;&gt;) -&gt; () in AlgoLab150Problems.getAuthorHistory(author: Swift.String) -&gt; Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "AlgoLab150Problems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/Practice/ConsoleProblemSolving/AlgoLab150Problems/FixedSizeSliding/UBSTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "371">
+               </Location>
+               <Location
+                  uuid = "7878A691-3FB1-475D-9045-3D0EF27284CC - 59239d73cc26d20b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;AlgoLab150Problems.RootModel&lt;Swift.Array&lt;AlgoLab150Problems.User&gt;&gt;&gt;) -&gt; () in AlgoLab150Problems.getAuthorHistory(author: Swift.String) -&gt; Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "AlgoLab150Problems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/Practice/ConsoleProblemSolving/AlgoLab150Problems/FixedSizeSliding/UBSTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "87">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "73013D18-91EB-4E56-8477-67CBDDFECC38"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlgoLab150Problems/FixedSizeSliding/UBSTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "getAuthorHistory(author:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "73013D18-91EB-4E56-8477-67CBDDFECC38 - cdf7b7e4c1f3d096"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgoLab150Problems.getAuthorHistory(author: Swift.String) -&gt; Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "AlgoLab150Problems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/Practice/ConsoleProblemSolving/AlgoLab150Problems/FixedSizeSliding/UBSTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "923">
+               </Location>
+               <Location
+                  uuid = "73013D18-91EB-4E56-8477-67CBDDFECC38 - cdf7b7e4c1f3d096"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgoLab150Problems.getAuthorHistory(author: Swift.String) -&gt; Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "AlgoLab150Problems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/Practice/ConsoleProblemSolving/AlgoLab150Problems/FixedSizeSliding/UBSTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "872">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "999CB59F-E22C-4B0D-A509-4A96139A9BAB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlgoLab150Problems/FixedSizeSliding/UBSTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "getAuthorHistory(author:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "999CB59F-E22C-4B0D-A509-4A96139A9BAB - cdf7b7e4c1f3eb4e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgoLab150Problems.getAuthorHistory(author: Swift.String) -&gt; Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "AlgoLab150Problems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/Practice/ConsoleProblemSolving/AlgoLab150Problems/FixedSizeSliding/UBSTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "112"
+                  endingLineNumber = "112"
+                  offsetFromSymbolStart = "1011">
+               </Location>
+               <Location
+                  uuid = "999CB59F-E22C-4B0D-A509-4A96139A9BAB - cdf7b7e4c1f3eb4e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgoLab150Problems.getAuthorHistory(author: Swift.String) -&gt; Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "AlgoLab150Problems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/Practice/ConsoleProblemSolving/AlgoLab150Problems/FixedSizeSliding/UBSTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "112"
+                  endingLineNumber = "112"
+                  offsetFromSymbolStart = "956">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "686AD7B7-F830-4350-9DC7-238D645222A5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlgoLab150Problems/FixedSizeSliding/UBSTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "191"
+            endingLineNumber = "191"
+            landmarkName = "loadData(urlPath:restMethod:parameters:success:failure:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2EE216D3-BE30-4114-A0C0-6D5E737B0512"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlgoLab150Problems/FixedSizeSliding/UBSTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "185"
+            endingLineNumber = "185"
+            landmarkName = "loadData(urlPath:restMethod:parameters:success:failure:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2EE216D3-BE30-4114-A0C0-6D5E737B0512 - f554c74cc17e512b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgoLab150Problems.NetworkManager.loadData&lt;&#x3c4;_0_0, &#x3c4;_0_1 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable, &#x3c4;_0_1: Swift.Decodable, &#x3c4;_0_1: Swift.Encodable&gt;(urlPath: Swift.String, restMethod: AlgoLab150Problems.RestMethod, parameters: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;, success: (&#x3c4;_0_0) -&gt; (), failure: (AlgoLab150Problems.NetworkFailure&lt;&#x3c4;_0_1&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "AlgoLab150Problems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/Practice/ConsoleProblemSolving/AlgoLab150Problems/FixedSizeSliding/UBSTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "185"
+                  endingLineNumber = "185"
+                  offsetFromSymbolStart = "833">
+               </Location>
+               <Location
+                  uuid = "2EE216D3-BE30-4114-A0C0-6D5E737B0512 - d99e37d20b56d497"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in AlgoLab150Problems.NetworkManager.loadData&lt;&#x3c4;_0_0, &#x3c4;_0_1 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable, &#x3c4;_0_1: Swift.Decodable, &#x3c4;_0_1: Swift.Encodable&gt;(urlPath: Swift.String, restMethod: AlgoLab150Problems.RestMethod, parameters: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;, success: (&#x3c4;_0_0) -&gt; (), failure: (AlgoLab150Problems.NetworkFailure&lt;&#x3c4;_0_1&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "AlgoLab150Problems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/Practice/ConsoleProblemSolving/AlgoLab150Problems/FixedSizeSliding/UBSTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "186"
+                  endingLineNumber = "186"
+                  offsetFromSymbolStart = "436">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F58CD222-709A-4C80-B562-80763FECD784"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlgoLab150Problems/FixedSizeSliding/UBSTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "198"
+            endingLineNumber = "198"
+            landmarkName = "handleResult(data:response:success:failure:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F58CD222-709A-4C80-B562-80763FECD784 - bfb965f81a3f7325"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgoLab150Problems.NetworkManager.handleResult&lt;&#x3c4;_0_0, &#x3c4;_0_1 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable, &#x3c4;_0_1: Swift.Decodable, &#x3c4;_0_1: Swift.Encodable&gt;(data: Swift.Optional&lt;Foundation.Data&gt;, response: Swift.Optional&lt;__C.NSHTTPURLResponse&gt;, success: (&#x3c4;_0_0) -&gt; (), failure: (AlgoLab150Problems.NetworkFailure&lt;&#x3c4;_0_1&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "AlgoLab150Problems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/Practice/ConsoleProblemSolving/AlgoLab150Problems/FixedSizeSliding/UBSTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "198"
+                  endingLineNumber = "198"
+                  offsetFromSymbolStart = "608">
+               </Location>
+               <Location
+                  uuid = "F58CD222-709A-4C80-B562-80763FECD784 - bfb965f81a3f7325"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgoLab150Problems.NetworkManager.handleResult&lt;&#x3c4;_0_0, &#x3c4;_0_1 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable, &#x3c4;_0_1: Swift.Decodable, &#x3c4;_0_1: Swift.Encodable&gt;(data: Swift.Optional&lt;Foundation.Data&gt;, response: Swift.Optional&lt;__C.NSHTTPURLResponse&gt;, success: (&#x3c4;_0_0) -&gt; (), failure: (AlgoLab150Problems.NetworkFailure&lt;&#x3c4;_0_1&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "AlgoLab150Problems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/Practice/ConsoleProblemSolving/AlgoLab150Problems/FixedSizeSliding/UBSTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "198"
+                  endingLineNumber = "198"
+                  offsetFromSymbolStart = "672">
+               </Location>
+               <Location
+                  uuid = "F58CD222-709A-4C80-B562-80763FECD784 - bfb965f81a3f7325"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgoLab150Problems.NetworkManager.handleResult&lt;&#x3c4;_0_0, &#x3c4;_0_1 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable, &#x3c4;_0_1: Swift.Decodable, &#x3c4;_0_1: Swift.Encodable&gt;(data: Swift.Optional&lt;Foundation.Data&gt;, response: Swift.Optional&lt;__C.NSHTTPURLResponse&gt;, success: (&#x3c4;_0_0) -&gt; (), failure: (AlgoLab150Problems.NetworkFailure&lt;&#x3c4;_0_1&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "AlgoLab150Problems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/Practice/ConsoleProblemSolving/AlgoLab150Problems/FixedSizeSliding/UBSTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "198"
+                  endingLineNumber = "198"
+                  offsetFromSymbolStart = "769">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "01FAF07F-B9C7-4145-88C5-BD22FD86857F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlgoLab150Problems/FixedSizeSliding/UBSTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
+            landmarkName = "getAuthorHistory(author:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "01FAF07F-B9C7-4145-88C5-BD22FD86857F - cdf7b7e4c1f3eb4e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgoLab150Problems.getAuthorHistory(author: Swift.String) -&gt; Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "AlgoLab150Problems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/Practice/ConsoleProblemSolving/AlgoLab150Problems/FixedSizeSliding/UBSTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "112"
+                  endingLineNumber = "112"
+                  offsetFromSymbolStart = "1011">
+               </Location>
+               <Location
+                  uuid = "01FAF07F-B9C7-4145-88C5-BD22FD86857F - cdf7b7e4c1f3eb4e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgoLab150Problems.getAuthorHistory(author: Swift.String) -&gt; Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "AlgoLab150Problems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/Practice/ConsoleProblemSolving/AlgoLab150Problems/FixedSizeSliding/UBSTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "112"
+                  endingLineNumber = "112"
+                  offsetFromSymbolStart = "956">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D3149921-ABEF-417D-AD68-1358F2B709B7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlgoLab150Problems/UBSTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "getAuthorHistory(author:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A6B86424-C44E-4A41-87D2-45197220E19D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlgoLab150Problems/UBSTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "getAuthorHistory(author:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D5A6F33F-19BA-4D13-A0F4-ECCF5E2CACC3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlgoLab150Problems/UBSTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
+            landmarkName = "getAuthorHistory(author:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1A9EA4A6-2303-44D6-B2EB-AC3F1D9B9585"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlgoLab150Problems/UBSTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "getAuthorHistory(author:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "43302992-3581-4D66-BA45-764BDB83D3C8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlgoLab150Problems/UBSTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "131"
+            endingLineNumber = "131"
+            landmarkName = "loadData(author:page:output:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "43302992-3581-4D66-BA45-764BDB83D3C8 - f89973265744937e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;AlgoLab150Problems.RootModel&lt;Swift.Array&lt;AlgoLab150Problems.Article&gt;&gt;&gt;) -&gt; () in AlgoLab150Problems.loadData(author: Swift.String, page: Swift.Int, output: (Swift.Array&lt;AlgoLab150Problems.Article&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "AlgoLab150Problems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/iOS/Practice/ConsoleProblemSolving/AlgoLab150Problems/UBSTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "131"
+                  endingLineNumber = "131"
+                  offsetFromSymbolStart = "1632">
+               </Location>
+               <Location
+                  uuid = "43302992-3581-4D66-BA45-764BDB83D3C8 - 79f64dafd3956289"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;AlgoLab150Problems.Article&gt;) -&gt; () in closure #1 (Swift.Optional&lt;AlgoLab150Problems.RootModel&lt;Swift.Array&lt;AlgoLab150Problems.Article&gt;&gt;&gt;) -&gt; () in AlgoLab150Problems.loadData(author: Swift.String, page: Swift.Int, output: (Swift.Array&lt;AlgoLab150Problems.Article&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "AlgoLab150Problems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/iOS/Practice/ConsoleProblemSolving/AlgoLab150Problems/UBSTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "132"
+                  endingLineNumber = "132"
+                  offsetFromSymbolStart = "60">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6DCE759A-E4C5-4923-9B49-4FC4851C8F05"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlgoLab150Problems/UBSTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "129"
+            endingLineNumber = "129"
+            landmarkName = "loadData(author:page:output:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9F973DA2-8001-4170-976F-FD1C7A94B21D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlgoLab150Problems/UBSTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "128"
+            endingLineNumber = "128"
+            landmarkName = "loadData(author:page:output:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "177B78F2-B51D-4FD4-8C53-4E1C57999A21"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlgoLab150Problems/UBSTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "118"
+            endingLineNumber = "118"
+            landmarkName = "getAuthorHistory(author:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F62C625C-6F03-4928-A220-F384000CADA0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlgoLab150Problems/Backtracking/SportyGroupTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "letterCombinations(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F62C625C-6F03-4928-A220-F384000CADA0 - a8d2f6ee0a34ab8c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgoLab150Problems.SportyGroupTests.letterCombinations(Swift.String) -&gt; Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "AlgoLab150Problems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/iOS/Practice/ConsoleProblemSolving/AlgoLab150Problems/Backtracking/SportyGroupTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "292">
+               </Location>
+               <Location
+                  uuid = "F62C625C-6F03-4928-A220-F384000CADA0 - a8d2f6ee0a34ab8c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgoLab150Problems.SportyGroupTests.letterCombinations(Swift.String) -&gt; Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "AlgoLab150Problems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/iOS/Practice/ConsoleProblemSolving/AlgoLab150Problems/Backtracking/SportyGroupTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "200">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1773AF1E-674F-4A66-AFA6-89993F43E1FE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlgoLab150Problems/Backtracking/SportyGroupTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "backtrack(currentString:fullStrings:index:result:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0E945222-D9F4-4F72-BD7D-822B66EABEC8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlgoLab150Problems/Backtracking/PalindromePartitioningTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "backtrack(_:_:s:result:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0E945222-D9F4-4F72-BD7D-822B66EABEC8 - bd351ac2ca520f61"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgoLab150Problems.PalindromePartitioningTests.backtrack(_: Swift.Int, _: Swift.Array&lt;Swift.String&gt;, s: Swift.String, result: inout Swift.Array&lt;Swift.Array&lt;Swift.String&gt;&gt;) -&gt; ()"
+                  moduleName = "AlgoLab150Problems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/iOS/Practice/ConsoleProblemSolving/AlgoLab150Problems/Backtracking/PalindromePartitioningTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "644">
+               </Location>
+               <Location
+                  uuid = "0E945222-D9F4-4F72-BD7D-822B66EABEC8 - bd351ac2ca520f61"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgoLab150Problems.PalindromePartitioningTests.backtrack(_: Swift.Int, _: Swift.Array&lt;Swift.String&gt;, s: Swift.String, result: inout Swift.Array&lt;Swift.Array&lt;Swift.String&gt;&gt;) -&gt; ()"
+                  moduleName = "AlgoLab150Problems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/iOS/Practice/ConsoleProblemSolving/AlgoLab150Problems/Backtracking/PalindromePartitioningTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "632">
+               </Location>
+               <Location
+                  uuid = "0E945222-D9F4-4F72-BD7D-822B66EABEC8 - bd351ac2ca520e3b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgoLab150Problems.PalindromePartitioningTests.backtrack(_: Swift.Int, _: Swift.Array&lt;Swift.String&gt;, s: Swift.String, result: inout Swift.Array&lt;Swift.Array&lt;Swift.String&gt;&gt;) -&gt; ()"
+                  moduleName = "AlgoLab150Problems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/iOS/Practice/ConsoleProblemSolving/AlgoLab150Problems/Backtracking/PalindromePartitioningTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "632">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "75BD1A17-A9E7-4BF8-925A-C9E6752583E0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlgoLab150Problems/Backtracking/PalindromePartitioningTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "backtrack(_:_:s:result:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "75BD1A17-A9E7-4BF8-925A-C9E6752583E0 - bd351ac2ca5200af"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgoLab150Problems.PalindromePartitioningTests.backtrack(_: Swift.Int, _: Swift.Array&lt;Swift.String&gt;, s: Swift.String, result: inout Swift.Array&lt;Swift.Array&lt;Swift.String&gt;&gt;) -&gt; ()"
+                  moduleName = "AlgoLab150Problems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/iOS/Practice/ConsoleProblemSolving/AlgoLab150Problems/Backtracking/PalindromePartitioningTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "904">
+               </Location>
+               <Location
+                  uuid = "75BD1A17-A9E7-4BF8-925A-C9E6752583E0 - bd351ac2ca5200af"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgoLab150Problems.PalindromePartitioningTests.backtrack(_: Swift.Int, _: Swift.Array&lt;Swift.String&gt;, s: Swift.String, result: inout Swift.Array&lt;Swift.Array&lt;Swift.String&gt;&gt;) -&gt; ()"
+                  moduleName = "AlgoLab150Problems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/iOS/Practice/ConsoleProblemSolving/AlgoLab150Problems/Backtracking/PalindromePartitioningTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "1024">
+               </Location>
+               <Location
+                  uuid = "75BD1A17-A9E7-4BF8-925A-C9E6752583E0 - bd351ac2ca520e79"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgoLab150Problems.PalindromePartitioningTests.backtrack(_: Swift.Int, _: Swift.Array&lt;Swift.String&gt;, s: Swift.String, result: inout Swift.Array&lt;Swift.Array&lt;Swift.String&gt;&gt;) -&gt; ()"
+                  moduleName = "AlgoLab150Problems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/iOS/Practice/ConsoleProblemSolving/AlgoLab150Problems/Backtracking/PalindromePartitioningTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "1024">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5018D159-9E51-4F17-BD46-EEEA2DB6BE02"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlgoLab150Problems/Backtracking/PalindromePartitioningTests.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "37"
             endingLineNumber = "37"
-            landmarkName = "findBirbesfrom(q:)"
-            landmarkType = "9">
+            landmarkName = "backtrack(_:_:s:result:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5018D159-9E51-4F17-BD46-EEEA2DB6BE02 - bd351ac2ca520f00"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgoLab150Problems.PalindromePartitioningTests.backtrack(_: Swift.Int, _: Swift.Array&lt;Swift.String&gt;, s: Swift.String, result: inout Swift.Array&lt;Swift.Array&lt;Swift.String&gt;&gt;) -&gt; ()"
+                  moduleName = "AlgoLab150Problems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/iOS/Practice/ConsoleProblemSolving/AlgoLab150Problems/Backtracking/PalindromePartitioningTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "336">
+               </Location>
+               <Location
+                  uuid = "5018D159-9E51-4F17-BD46-EEEA2DB6BE02 - bd351ac2ca520f00"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgoLab150Problems.PalindromePartitioningTests.backtrack(_: Swift.Int, _: Swift.Array&lt;Swift.String&gt;, s: Swift.String, result: inout Swift.Array&lt;Swift.Array&lt;Swift.String&gt;&gt;) -&gt; ()"
+                  moduleName = "AlgoLab150Problems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/iOS/Practice/ConsoleProblemSolving/AlgoLab150Problems/Backtracking/PalindromePartitioningTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "348">
+               </Location>
+               <Location
+                  uuid = "5018D159-9E51-4F17-BD46-EEEA2DB6BE02 - bd351ac2ca520eda"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgoLab150Problems.PalindromePartitioningTests.backtrack(_: Swift.Int, _: Swift.Array&lt;Swift.String&gt;, s: Swift.String, result: inout Swift.Array&lt;Swift.Array&lt;Swift.String&gt;&gt;) -&gt; ()"
+                  moduleName = "AlgoLab150Problems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/iOS/Practice/ConsoleProblemSolving/AlgoLab150Problems/Backtracking/PalindromePartitioningTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "336">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "8B3F200F-531F-45CC-8A62-5D79F6C821DB"
-            shouldBeEnabled = "No"
+            uuid = "C0D00322-9DC7-4297-8936-85C27A434125"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ConsoleProblemSolving/main.swift"
+            filePath = "AlgoLab150Problems/Backtracking/PalindromePartitioningTests.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
-            landmarkName = "findBirbesfrom(q:)"
-            landmarkType = "9">
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "backtrack(_:_:s:result:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C0D00322-9DC7-4297-8936-85C27A434125 - bd351ac2ca520f84"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgoLab150Problems.PalindromePartitioningTests.backtrack(_: Swift.Int, _: Swift.Array&lt;Swift.String&gt;, s: Swift.String, result: inout Swift.Array&lt;Swift.Array&lt;Swift.String&gt;&gt;) -&gt; ()"
+                  moduleName = "AlgoLab150Problems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/iOS/Practice/ConsoleProblemSolving/AlgoLab150Problems/Backtracking/PalindromePartitioningTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "260">
+               </Location>
+               <Location
+                  uuid = "C0D00322-9DC7-4297-8936-85C27A434125 - bd351ac2ca520f84"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgoLab150Problems.PalindromePartitioningTests.backtrack(_: Swift.Int, _: Swift.Array&lt;Swift.String&gt;, s: Swift.String, result: inout Swift.Array&lt;Swift.Array&lt;Swift.String&gt;&gt;) -&gt; ()"
+                  moduleName = "AlgoLab150Problems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/iOS/Practice/ConsoleProblemSolving/AlgoLab150Problems/Backtracking/PalindromePartitioningTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "272">
+               </Location>
+               <Location
+                  uuid = "C0D00322-9DC7-4297-8936-85C27A434125 - bd351ac2ca520d5e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgoLab150Problems.PalindromePartitioningTests.backtrack(_: Swift.Int, _: Swift.Array&lt;Swift.String&gt;, s: Swift.String, result: inout Swift.Array&lt;Swift.Array&lt;Swift.String&gt;&gt;) -&gt; ()"
+                  moduleName = "AlgoLab150Problems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/iOS/Practice/ConsoleProblemSolving/AlgoLab150Problems/Backtracking/PalindromePartitioningTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "260">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "003F25BA-7226-495F-ADC9-A19132425C4A"
-            shouldBeEnabled = "No"
+            uuid = "26DE8450-8007-41E1-A6AC-D23E102EB8A5"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ConsoleProblemSolving/main.swift"
+            filePath = "AlgoLab150Problems/Backtracking/PalindromePartitioningTests.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
-            landmarkName = "findBirbesfrom(q:)"
-            landmarkType = "9">
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "backtrack(_:_:s:result:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "26DE8450-8007-41E1-A6AC-D23E102EB8A5 - bd351ac2ca52008c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgoLab150Problems.PalindromePartitioningTests.backtrack(_: Swift.Int, _: Swift.Array&lt;Swift.String&gt;, s: Swift.String, result: inout Swift.Array&lt;Swift.Array&lt;Swift.String&gt;&gt;) -&gt; ()"
+                  moduleName = "AlgoLab150Problems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/iOS/Practice/ConsoleProblemSolving/AlgoLab150Problems/Backtracking/PalindromePartitioningTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "1000">
+               </Location>
+               <Location
+                  uuid = "26DE8450-8007-41E1-A6AC-D23E102EB8A5 - bd351ac2ca52008c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgoLab150Problems.PalindromePartitioningTests.backtrack(_: Swift.Int, _: Swift.Array&lt;Swift.String&gt;, s: Swift.String, result: inout Swift.Array&lt;Swift.Array&lt;Swift.String&gt;&gt;) -&gt; ()"
+                  moduleName = "AlgoLab150Problems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/iOS/Practice/ConsoleProblemSolving/AlgoLab150Problems/Backtracking/PalindromePartitioningTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "1180">
+               </Location>
+               <Location
+                  uuid = "26DE8450-8007-41E1-A6AC-D23E102EB8A5 - bd351ac2ca520e46"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgoLab150Problems.PalindromePartitioningTests.backtrack(_: Swift.Int, _: Swift.Array&lt;Swift.String&gt;, s: Swift.String, result: inout Swift.Array&lt;Swift.Array&lt;Swift.String&gt;&gt;) -&gt; ()"
+                  moduleName = "AlgoLab150Problems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/iOS/Practice/ConsoleProblemSolving/AlgoLab150Problems/Backtracking/PalindromePartitioningTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "1180">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7E539394-05BF-489E-8D62-8FFFF435A3CB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlgoLab150Problems/Backtracking/PalindromePartitioningTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "backtrack(_:_:s:result:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7E539394-05BF-489E-8D62-8FFFF435A3CB - bd351ac2ca5200ed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgoLab150Problems.PalindromePartitioningTests.backtrack(_: Swift.Int, _: Swift.Array&lt;Swift.String&gt;, s: Swift.String, result: inout Swift.Array&lt;Swift.Array&lt;Swift.String&gt;&gt;) -&gt; ()"
+                  moduleName = "AlgoLab150Problems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/iOS/Practice/ConsoleProblemSolving/AlgoLab150Problems/Backtracking/PalindromePartitioningTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "1156">
+               </Location>
+               <Location
+                  uuid = "7E539394-05BF-489E-8D62-8FFFF435A3CB - bd351ac2ca5200ed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgoLab150Problems.PalindromePartitioningTests.backtrack(_: Swift.Int, _: Swift.Array&lt;Swift.String&gt;, s: Swift.String, result: inout Swift.Array&lt;Swift.Array&lt;Swift.String&gt;&gt;) -&gt; ()"
+                  moduleName = "AlgoLab150Problems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/iOS/Practice/ConsoleProblemSolving/AlgoLab150Problems/Backtracking/PalindromePartitioningTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "1196">
+               </Location>
+               <Location
+                  uuid = "7E539394-05BF-489E-8D62-8FFFF435A3CB - bd351ac2ca520fa7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgoLab150Problems.PalindromePartitioningTests.backtrack(_: Swift.Int, _: Swift.Array&lt;Swift.String&gt;, s: Swift.String, result: inout Swift.Array&lt;Swift.Array&lt;Swift.String&gt;&gt;) -&gt; ()"
+                  moduleName = "AlgoLab150Problems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/iOS/Practice/ConsoleProblemSolving/AlgoLab150Problems/Backtracking/PalindromePartitioningTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "1196">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "37F63784-61B5-485C-A49A-5B35475A446E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlgoLab150Problems/Backtracking/PalindromePartitioningTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "backtrack(_:_:s:result:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "37F63784-61B5-485C-A49A-5B35475A446E - bd351ac2ca5200ca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgoLab150Problems.PalindromePartitioningTests.backtrack(_: Swift.Int, _: Swift.Array&lt;Swift.String&gt;, s: Swift.String, result: inout Swift.Array&lt;Swift.Array&lt;Swift.String&gt;&gt;) -&gt; ()"
+                  moduleName = "AlgoLab150Problems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/iOS/Practice/ConsoleProblemSolving/AlgoLab150Problems/Backtracking/PalindromePartitioningTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "1172">
+               </Location>
+               <Location
+                  uuid = "37F63784-61B5-485C-A49A-5B35475A446E - bd351ac2ca5200ca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgoLab150Problems.PalindromePartitioningTests.backtrack(_: Swift.Int, _: Swift.Array&lt;Swift.String&gt;, s: Swift.String, result: inout Swift.Array&lt;Swift.Array&lt;Swift.String&gt;&gt;) -&gt; ()"
+                  moduleName = "AlgoLab150Problems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/iOS/Practice/ConsoleProblemSolving/AlgoLab150Problems/Backtracking/PalindromePartitioningTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "1208">
+               </Location>
+               <Location
+                  uuid = "37F63784-61B5-485C-A49A-5B35475A446E - bd351ac2ca520f84"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgoLab150Problems.PalindromePartitioningTests.backtrack(_: Swift.Int, _: Swift.Array&lt;Swift.String&gt;, s: Swift.String, result: inout Swift.Array&lt;Swift.Array&lt;Swift.String&gt;&gt;) -&gt; ()"
+                  moduleName = "AlgoLab150Problems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/iOS/Practice/ConsoleProblemSolving/AlgoLab150Problems/Backtracking/PalindromePartitioningTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "1208">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0FFA3238-78F4-4089-8ACB-DAB0F2C9B017"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlgoLab150Problems/Backtracking/PalindromePartitioningTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "backtrack(_:_:s:result:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0FFA3238-78F4-4089-8ACB-DAB0F2C9B017 - bd351ac2ca520e46"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgoLab150Problems.PalindromePartitioningTests.backtrack(_: Swift.Int, _: Swift.Array&lt;Swift.String&gt;, s: Swift.String, result: inout Swift.Array&lt;Swift.Array&lt;Swift.String&gt;&gt;) -&gt; ()"
+                  moduleName = "AlgoLab150Problems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/iOS/Practice/ConsoleProblemSolving/AlgoLab150Problems/Backtracking/PalindromePartitioningTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "184">
+               </Location>
+               <Location
+                  uuid = "0FFA3238-78F4-4089-8ACB-DAB0F2C9B017 - bd351ac2ca520e46"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgoLab150Problems.PalindromePartitioningTests.backtrack(_: Swift.Int, _: Swift.Array&lt;Swift.String&gt;, s: Swift.String, result: inout Swift.Array&lt;Swift.Array&lt;Swift.String&gt;&gt;) -&gt; ()"
+                  moduleName = "AlgoLab150Problems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/iOS/Practice/ConsoleProblemSolving/AlgoLab150Problems/Backtracking/PalindromePartitioningTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "196">
+               </Location>
+               <Location
+                  uuid = "0FFA3238-78F4-4089-8ACB-DAB0F2C9B017 - bd351ac2ca520d10"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgoLab150Problems.PalindromePartitioningTests.backtrack(_: Swift.Int, _: Swift.Array&lt;Swift.String&gt;, s: Swift.String, result: inout Swift.Array&lt;Swift.Array&lt;Swift.String&gt;&gt;) -&gt; ()"
+                  moduleName = "AlgoLab150Problems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/iOS/Practice/ConsoleProblemSolving/AlgoLab150Problems/Backtracking/PalindromePartitioningTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "184">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F2F31628-4590-49AA-BF04-2D040EA8F149"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlgoLab150Problems/Backtracking/PalindromePartitioningTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "backtrack(_:_:s:result:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F2F31628-4590-49AA-BF04-2D040EA8F149 - bd351ac2ca520f4e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgoLab150Problems.PalindromePartitioningTests.backtrack(_: Swift.Int, _: Swift.Array&lt;Swift.String&gt;, s: Swift.String, result: inout Swift.Array&lt;Swift.Array&lt;Swift.String&gt;&gt;) -&gt; ()"
+                  moduleName = "AlgoLab150Problems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/iOS/Practice/ConsoleProblemSolving/AlgoLab150Problems/Backtracking/PalindromePartitioningTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "928">
+               </Location>
+               <Location
+                  uuid = "F2F31628-4590-49AA-BF04-2D040EA8F149 - bd351ac2ca520e18"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgoLab150Problems.PalindromePartitioningTests.backtrack(_: Swift.Int, _: Swift.Array&lt;Swift.String&gt;, s: Swift.String, result: inout Swift.Array&lt;Swift.Array&lt;Swift.String&gt;&gt;) -&gt; ()"
+                  moduleName = "AlgoLab150Problems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/iOS/Practice/ConsoleProblemSolving/AlgoLab150Problems/Backtracking/PalindromePartitioningTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "928">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "07597411-B6D9-4491-9C36-D10BAB403CE4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlgoLab150Problems/DynmaicSizeSliding/LongestSubstringWithoutRepeatingCharacters.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "lengthOfLongestSubstring(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "07597411-B6D9-4491-9C36-D10BAB403CE4 - 3de6033c45feee80"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgoLab150Problems.LongestSubstringWithoutRepeatingCharactersTests.lengthOfLongestSubstring(Swift.String) -&gt; Swift.Int"
+                  moduleName = "AlgoLab150Problems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/iOS/Practice/ConsoleProblemSolving/AlgoLab150Problems/DynmaicSizeSliding/LongestSubstringWithoutRepeatingCharacters.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "1224">
+               </Location>
+               <Location
+                  uuid = "07597411-B6D9-4491-9C36-D10BAB403CE4 - 3de6033c45feeea1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgoLab150Problems.LongestSubstringWithoutRepeatingCharactersTests.lengthOfLongestSubstring(Swift.String) -&gt; Swift.Int"
+                  moduleName = "AlgoLab150Problems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/iOS/Practice/ConsoleProblemSolving/AlgoLab150Problems/DynmaicSizeSliding/LongestSubstringWithoutRepeatingCharacters.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "1224">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A98B187C-0A9B-4F7A-8294-66EC8AB169EE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlgoLab150Problems/DynmaicSizeSliding/LongestSubstringWithoutRepeatingCharacters.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "lengthOfLongestSubstring(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A98B187C-0A9B-4F7A-8294-66EC8AB169EE - 3de6033c45feedff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgoLab150Problems.LongestSubstringWithoutRepeatingCharactersTests.lengthOfLongestSubstring(Swift.String) -&gt; Swift.Int"
+                  moduleName = "AlgoLab150Problems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/iOS/Practice/ConsoleProblemSolving/AlgoLab150Problems/DynmaicSizeSliding/LongestSubstringWithoutRepeatingCharacters.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "1056">
+               </Location>
+               <Location
+                  uuid = "A98B187C-0A9B-4F7A-8294-66EC8AB169EE - 3de6033c45feedde"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgoLab150Problems.LongestSubstringWithoutRepeatingCharactersTests.lengthOfLongestSubstring(Swift.String) -&gt; Swift.Int"
+                  moduleName = "AlgoLab150Problems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/iOS/Practice/ConsoleProblemSolving/AlgoLab150Problems/DynmaicSizeSliding/LongestSubstringWithoutRepeatingCharacters.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "964">
+               </Location>
+               <Location
+                  uuid = "A98B187C-0A9B-4F7A-8294-66EC8AB169EE - 3de6033c45feedde"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgoLab150Problems.LongestSubstringWithoutRepeatingCharactersTests.lengthOfLongestSubstring(Swift.String) -&gt; Swift.Int"
+                  moduleName = "AlgoLab150Problems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/iOS/Practice/ConsoleProblemSolving/AlgoLab150Problems/DynmaicSizeSliding/LongestSubstringWithoutRepeatingCharacters.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "972">
+               </Location>
+               <Location
+                  uuid = "A98B187C-0A9B-4F7A-8294-66EC8AB169EE - 3de6033c45feedff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgoLab150Problems.LongestSubstringWithoutRepeatingCharactersTests.lengthOfLongestSubstring(Swift.String) -&gt; Swift.Int"
+                  moduleName = "AlgoLab150Problems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/iOS/Practice/ConsoleProblemSolving/AlgoLab150Problems/DynmaicSizeSliding/LongestSubstringWithoutRepeatingCharacters.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "964">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CBD9FA7D-58DA-4095-9F52-0057CA86D456"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlgoLab150Problems/DynmaicSizeSliding/LongestSubstringWithoutRepeatingCharacters.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "lengthOfLongestSubstring(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CBD9FA7D-58DA-4095-9F52-0057CA86D456 - 3de6033c45feef04"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgoLab150Problems.LongestSubstringWithoutRepeatingCharactersTests.lengthOfLongestSubstring(Swift.String) -&gt; Swift.Int"
+                  moduleName = "AlgoLab150Problems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/iOS/Practice/ConsoleProblemSolving/AlgoLab150Problems/DynmaicSizeSliding/LongestSubstringWithoutRepeatingCharacters.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "1276">
+               </Location>
+               <Location
+                  uuid = "CBD9FA7D-58DA-4095-9F52-0057CA86D456 - 3de6033c45feef04"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AlgoLab150Problems.LongestSubstringWithoutRepeatingCharactersTests.lengthOfLongestSubstring(Swift.String) -&gt; Swift.Int"
+                  moduleName = "AlgoLab150Problems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mustafaabozaina/Desktop/Developer/iOS/Practice/ConsoleProblemSolving/AlgoLab150Problems/DynmaicSizeSliding/LongestSubstringWithoutRepeatingCharacters.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "1280">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DED9120E-D336-43CE-B403-4A6C79A5D0B9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlgoLab150Problems/DynmaicSizeSliding/LongestSubstringWithoutRepeatingCharacters.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "lengthOfLongestSubstring(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

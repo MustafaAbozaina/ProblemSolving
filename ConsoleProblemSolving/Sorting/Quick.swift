@@ -8,9 +8,18 @@
 
 import Foundation
 
-// used last element as a pivot
-func quickSort(array: [Int]? = nil) -> [Int]{
+// Complexities:-
+// Time: Avarage: O(nlogn), Worst: O(N2),  Space: O(logN)
+// Idea: using Pivot technique with Recusive (divide and conquor)
+// The pivot is the last index and compared with every element before It
+   // then => use recursion and divide the array into 2 halfs
+   // then => each half do the same process
+   // finally => for It and return the arr count == 1
+
+
+public func quickSort(array: [Int]? = nil) -> [Int]{
     var arr = [5,3,1,2,4]
+    print("function arr beginning \(arr)")
     if let _ = array {
         arr = array!
     }
